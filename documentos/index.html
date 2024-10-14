@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><img src="assets/img/Ooooomaga (0).png" width="50px"></h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="login.html">Entrar</a></button>
+            </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="assets/img/menu_white_36dp.svg" class="icon"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="login.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <link rel="stylesheet" href="assets/css/style3.css">
+        <div class="main">
+        <div id="container">
+            <div class="tab-buttons">
+                <button class="tab-btn active" content-id="home">
+                    Inicio
+                </button>
+    
+                <button class="tab-btn" content-id="services">
+                    Serviços
+                </button>
+    
+                <button class="tab-btn" content-id="contacts">
+                    Contatos
+                </button>
+    
+                <button class="tab-btn" content-id="location">
+                    Lojas
+                </button>
+    
+                <button class="tab-btn" content-id="about">
+                    Sobre
+                </button>
+            </div>
+    
+            <div class="tab-contents">
+                <div class="content" id="home">
+                    <img src="assets/img/home.svg" class="content-img" alt="home image">
+    
+                    <div class="infos">
+                        <h1 class="content-title">
+                            inicio
+                        </h1>
+    
+                        <p class="content-description">
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, repellat! Id ab similique velit, molestiae, aliquam illum officiis sit totam rem voluptas magnam, atque dicta magni perferendis recusandae reiciendis necessitatibus! 
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="content" id="services">
+                    <img src="assets/img/services.svg" class="content-img" alt="services image">
+    
+                    <div class="infos">
+                        <h1 class="content-title">
+                            Serviços
+                        </h1>
+    
+                        <p class="content-description">
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, repellat! Id ab similique velit, molestiae, aliquam illum officiis sit totam rem voluptas magnam, atque dicta magni perferendis recusandae reiciendis necessitatibus! 
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="content" id="contacts">
+                    <img src="assets/img/contacts.svg" class="content-img" alt="contacts image">
+    
+                    <div class="infos">
+                        <h1 class="content-title">
+                            Contatos
+                        </h1>
+    
+                        <p class="content-description">
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, repellat! Id ab similique velit, molestiae, aliquam illum officiis sit totam rem voluptas magnam, atque dicta magni perferendis recusandae reiciendis necessitatibus! 
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="content" id="location">
+                    <img src="assets/img/location.svg" class="content-img" alt="location image">
+    
+                    <div class="infos">
+                        <h1 class="content-title">
+                            Lojas
+                        </h1>
+    
+                        <p class="content-description">
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, repellat! Id ab similique velit, molestiae, aliquam illum officiis sit totam rem voluptas magnam, atque dicta magni perferendis recusandae reiciendis necessitatibus! 
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="content" id="about">
+                    <img src="assets/img/about.svg" class="content-img" alt="about image">
+    
+                    <div class="infos">
+                        <h1 class="content-title">
+                            Sobre
+                        </h1>
+    
+                        <p class="content-description">
+                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, repellat! Id ab similique velit, molestiae, aliquam illum officiis sit totam rem voluptas magnam, atque dicta magni perferendis recusandae reiciendis necessitatibus! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="assets/js/script2.js"></script>
+
+        <link rel="stylesheet" href="assets/css/style4.css">
+
+        <div id="container">
+            <div class="accordion">
+                <button class="accordion-header">
+                    <span>
+                        É confiável?
+                    </span>
+                    <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+    
+                <div class="accordion-body">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Rem corrupti voluptatem
+                        enim facilis maxime, et iure magnam suscipit
+                        consequatur nemo provident dolores temporibus
+                        praesentium nisi quae unde nostrum
+                        commodi sit.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="accordion">
+                <button class="accordion-header">
+                    <span>
+                        Como eu vejo minhas compras?
+                    </span>
+                    <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+    
+                <div class="accordion-body">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Rem corrupti voluptatem
+                        enim facilis maxime, et iure magnam suscipit
+                        consequatur nemo provident dolores temporibus
+                        praesentium nisi quae unde nostrum
+                        commodi sit.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="accordion">
+                <button class="accordion-header">
+                    <span>
+                        Como posso entrar em contato? 
+                    </span>
+                    <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+    
+                <div class="accordion-body">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Rem corrupti voluptatem
+                        enim facilis maxime, et iure magnam suscipit
+                        consequatur nemo provident dolores temporibus
+                        praesentium nisi quae unde nostrum
+                        commodi sit.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="accordion">
+                <button class="accordion-header">
+                    <span>
+                        O que é a E-domestics?
+                    </span>
+                    <i class="fa-solid fa-chevron-down arrow"></i>
+                </button>
+    
+                <div class="accordion-body">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Rem corrupti voluptatem
+                        enim facilis maxime, et iure magnam suscipit
+                        consequatur nemo provident dolores temporibus
+                        praesentium nisi quae unde nostrum
+                        commodi sit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/script3.js"></script>
+    </div>
+    </body>
+
+    <body>
+        
+        <link rel="stylesheet" href="assets/css/style5.css">i
+        <section id="menu">
+            <h2 class="section-title">Compras</h2>
+            <h3 class="section-subtitle">Nossos itens em promoção!</h3>
+
+            <div id="dishes">
+                <div class="dish">
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                   
+
+                    <img src="src/images/dish2.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                   
+
+                    <img src="src/images/dish3.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                   
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                   
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                   
+
+                    <img src="src/images/dish4.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem Ipsum
+                    </h3>
+
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+ <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1><img src="assets/img/Ooooomaga (0).png" width="50px"></h1>
+                <p>Isso é tudo sobre seus sonhos</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Tecnologia</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Aventura+</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Mais</a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">App</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Desktop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Nuvem</a>
+                </li>
+            </ul>
+
+            <div id="footer_subscribe">
+                <h3>Registre-se!</h3>
+
+                <P>
+                    Entre com seu e-mail para ser notificado sobre as novas atualizações!
+                </P>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2024 todos os direitos reservados para E-domestics
+        </div>
+    </footer>
+
+</body>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
